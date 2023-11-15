@@ -1,10 +1,15 @@
 Package: hercpoverty
-Title: What the Package Does (One Line, Title Case)
+Title: Census Information about Poverty Thresholds
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Ben", "Taft",
+           email = "ben.taft@career2cradle.org",
+           role = c("aut", "cre"))
+Description: The U.S. Census Bureau publishes historical data about poverty thresholds
+    these are available in wide format, either as sparse yearly spreadsheets or
+    as dense historical spreadsheets. This is mostly a data package to publish
+    the dense historical spreadsheet as a tidy table.
+URL: https://github.com/higherX4Racine/hercpoverty, https://higherx4racine.github.io/hercpoverty/
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
